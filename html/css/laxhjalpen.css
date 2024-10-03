@@ -7,7 +7,7 @@ body
 {
     margin: auto; /* Centrera sidan */
     max-width: 860px; 
-    font-family: sans-serif; 
+    font-family: "Helvetica-Neue", "Liberation Sans", Calibri, Arial ,sans-serif; 
     font-size: 100%; /* Startvärde */
 }
 
@@ -24,7 +24,9 @@ header
 {
     font-size: 500%; /* Massiv rubrik pả startsidan */
 }
-
+h1 {
+    font-family: 'Merienda One', cursive;
+}
 .tagline 
 {
     font-size: 120%;
@@ -86,4 +88,5 @@ background-color: #F5F5F5;
 text-align: center;
 box-shadow: inset 0 0 20px #007241;
 border-radius: 50%;
+font-family: 'Merienda One', cursive;
 }
