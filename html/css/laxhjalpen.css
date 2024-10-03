@@ -90,3 +90,23 @@ box-shadow: inset 0 0 20px #007241;
 border-radius: 50%;
 font-family: 'Merienda One', cursive;
 }
+
+h1::first-letter {
+color:#00AF64
+}
+
+.startpage .logo {
+width: 235px;
+height: 198px;
+}
+
+.hwrap {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+
+hwrap > a {
+    margin-right: 30px;
+}
