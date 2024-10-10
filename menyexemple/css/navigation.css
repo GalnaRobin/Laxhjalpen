@@ -43,6 +43,6 @@ padding: 3px;
 }
 
 @media screen and (max-width: 600px) {
-    ul.mainmenu li:last-child, 
-    ul.mainmenu li {float: none;}
+    header.mainmenu li:last-child, 
+    header.mainmenu li {float: none;}
 }
