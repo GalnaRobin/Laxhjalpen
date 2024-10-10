@@ -42,7 +42,7 @@ p, h1 {
 padding: 3px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
     header.mainmenu li:last-child, 
     header.mainmenu li {float: none;}
 }
