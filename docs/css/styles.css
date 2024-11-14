@@ -1,3 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9ab70;
+}
 html,body {
     margin: 0;
     padding: 0;
@@ -14,8 +32,10 @@ html,body {
     overflow: hidden;
 }
 
+
+
 .meny li {
-    float: left;
+    float: left; 
 }
 
 .meny li a {
@@ -31,13 +51,17 @@ html,body {
 }
 
 .header {
-    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 5px 10% 0;
+    background-color: white;
     color: black;
     padding: 20px;
     text-align: center;
 }
 
 .content {
+    background-color: white;
     margin: 15px;
     padding: 20px;
     border: 2px solid black;
@@ -45,20 +69,35 @@ html,body {
 }
 
 .kontakt_info {
+    background-color: white;    
     margin: 15px;
     padding: 20px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 8px;
 }
 
-.footer {
-    text-align: center;
-    box-sizing: border-box;
+
+
+.page_content {
+    padding-bottom: 3rem;
+}
+
+footer {
+    border: 2px solid black; 
+    display: flex;
+    position: absolute;
     background-color: white;
     bottom: 0;
-    border: 1px solid black;
-    border-radius: 8px;
     width: 100%;
-    margin: 10px;
+    height: 3rem;
+    padding-top: 0.5rem;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.4rem;
+    text-align: center;
 }
