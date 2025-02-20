@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Introduktion</title>
+    <script>
+        function showInternalMessage() {
+            alert('Hej från intern JavaScript!');
+        }
+    </script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>JavaScript Introduktion</h1>
+    <button id="inlineButton" onclick="alert('Hej från inline JavaScript!')">Inline JavaScript</button>
+    <button id="internalButton" onclick="showInternalMessage()">Internal JavaScript</button>
+    <button id="externalButton">External JavaScript</button>
+    <p id="minText">Bananer</p>
+    <div class="blåDiv">
+        <p class="highlight">Text</p>
+        <p id="content">bananer</p>
+    </div>
+    <div class="blåDiv">
+        <div id="minBox"></div>
+    </div>
+    <div class="blåDiv"></div>
+</body>
+</html>
