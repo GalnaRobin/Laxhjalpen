@@ -1,0 +1,15 @@
+body {
+    line-height: 4vh;
+}
+
+h1 {}
+
+h2 {}
+
+img {
+max-width: 80vw;
+max-height: 70vh;
+}
+figure {
+margin: 0;
+}
